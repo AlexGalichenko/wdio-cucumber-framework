@@ -178,7 +178,7 @@ Using templates in .feature files. Special step:
     });
 ```
 
-It will add template scenarious in current feature file from feature with a specified path. 
+It will add template scenarios in current feature file from feature with a specified path. 
 
 Example: 
 

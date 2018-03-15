@@ -170,4 +170,29 @@ $ npm build
 
 ----
 
+## New Feature
+
+Using templates in .feature files. Special step: 
+```
+    When(/^Using template "([^"]*)"$/, (path) => {
+    });
+```
+
+It will add template scenarious in current feature file from feature with a specified path. 
+
+Example: 
+
+```
+Feature: Verification example
+   
+   @login
+   Scenario: Download report from page
+    Given I should be on "Home" page
+        And I download file by clicking on "Download"
+        And Export of XLSX for company should be complete
+    
+    When Using template "./tests/features/templateExcelVerification.feature"
+
+```
+
 For more information on WebdriverIO see the [homepage](http://webdriver.io).

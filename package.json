@@ -1,6 +1,6 @@
 {
   "name": "wdio-cucumber2fix-framework",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A WebdriverIO plugin. Adapter for Cucumber2 testing framework.",
   "main": "build/adapter.js",
   "scripts": {

@@ -1,5 +1,9 @@
 {
-  "presets": ["es2015", "stage-0"],
+  "presets": [["env", {
+    "targets": {
+      "node": "8.12"
+    }
+  }]],
   "plugins": [
     "rewire",
     "transform-runtime",

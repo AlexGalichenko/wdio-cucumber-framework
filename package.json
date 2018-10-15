@@ -2,9 +2,8 @@
   "name": "wdio-cucumber2fix-framework",
   "version": "0.0.8",
   "description": "A WebdriverIO plugin. Adapter for Cucumber2 testing framework.",
-  "main": "build/adapter.js",
+  "main": "lib/adapter.js",
   "scripts": {
-    "postinstall": "npm run compile",
     "build": "run-s compile",
     "clean": "rm -rf ./build ./coverage",
     "compile": "babel lib/ -d build/",
